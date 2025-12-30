@@ -6,7 +6,10 @@
       "Bash(cat:*)",
       "Bash(npm run build:*)",
       "Bash(npm run lint:*)",
-      "Bash(npm publish:*)"
+      "Bash(npm publish:*)",
+      "Bash(npm pack:*)",
+      "Bash(tar:*)",
+      "Bash(npm search:*)"
     ]
   }
 }
