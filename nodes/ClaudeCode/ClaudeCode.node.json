@@ -1,0 +1,17 @@
+{
+	"node": "n8n-nodes-claudecode.claudeCode",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["AI", "Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.anthropic.com/en/docs/claude-code"
+			}
+		]
+	},
+	"subcategories": {
+		"AI": ["Agents", "Tools"]
+	},
+	"alias": ["claude", "anthropic", "ai", "code", "cli", "agent"]
+}
