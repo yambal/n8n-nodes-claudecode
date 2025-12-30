@@ -4,7 +4,7 @@ import type {
 	INodeType,
 	INodeTypeDescription,
 } from 'n8n-workflow';
-import { NodeConnectionTypes, NodeOperationError } from 'n8n-workflow';
+import { NodeOperationError } from 'n8n-workflow';
 
 import { buildCommand } from './utils/commandBuilder';
 import { runProcess } from './utils/processRunner';
@@ -23,8 +23,8 @@ export class ClaudeCode implements INodeType {
 		defaults: {
 			name: 'Claude Code',
 		},
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
+		inputs: ['main'],
+		outputs: ['main'],
 		usableAsTool: true,
 		properties: [
 			// === Basic Settings ===
