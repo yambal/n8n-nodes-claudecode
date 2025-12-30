@@ -1,6 +1,6 @@
 {
 	"name": "@jnymmt/n8n-nodes-claudecode",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"description": "n8n community node for Claude Code CLI",
 	"license": "MIT",
 	"homepage": "https://github.com/yambal/n8n-nodes-claudecode",
